@@ -32,4 +32,4 @@ jobs:
                 python-version: ${{ matrix.python-version }}
             
             - name: "run test"
-              run: python start.py
+              run: python start.py 1
